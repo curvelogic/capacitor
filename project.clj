@@ -1,14 +1,14 @@
-(defproject capacitor "0.3.1"
-  :description "A Clojure client for InfluxDB"
-  :url         "https://github.com/olauzon/capacitor"
+(defproject org.clojars.curvelogic/capacitor "0.3.3"
+  :description "A Clojure client for InfluxDB : curvelogic build"
+  :url         "https://github.com/curvelogic/capacitor"
   :license {
     :name "Eclipse Public License"
     :url  "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [
-    [org.clojure/clojure    "1.5.1"]
-    [org.clojure/core.async "0.1.267.0-0d7780-alpha"]
-    [clj-http               "0.9.1"]
-    [http-kit               "2.1.18"]
+    [org.clojure/clojure    "1.6.0"]
+    [org.clojure/core.async "0.1.346.0-17112a-alpha"]
+    [clj-http               "1.0.1"]
+    [http-kit               "2.1.19"]
     [cheshire               "5.3.1"]
   ]
   :plugins [
@@ -20,8 +20,6 @@
   ]
   :codox {
     :output-dir "docs/codox"
-    :src-dir-uri "https://github.com/olauzon/capacitor/blob/v0.3.1/"
-    ;;:src-dir-uri "https://github.com/olauzon/capacitor/blob/master/"
+    :src-dir-uri "https://github.com/curvelogic/capacitor/blob/v0.3.3/"
     :src-linenum-anchor-prefix "L"
-  }
-  :aot :all)
+  })
