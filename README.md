@@ -1,6 +1,10 @@
 Capacitor  [![Build Status](https://travis-ci.org/olauzon/capacitor.png?branch=master)](https://travis-ci.org/olauzon/capacitor)
 =========
 
+**NON-CANONICAL FORK*
+
+See olauzon/capacitor for the real thing.
+
 A Clojure client for [InfluxDB](http://influxdb.org), a scalable open-source
 time-series events and metrics database.
 
@@ -17,7 +21,7 @@ Capacitor is distributed via [Clojars](https://clojars.org/capacitor). Add the
 following to your dependencies in `project.clj`:
 
 ```clj
-:dependencies [[capacitor "0.3.1"]]
+:dependencies [[org.clojars.curvelogic/capacitor "0.3.3"]]
 ```
 
 
