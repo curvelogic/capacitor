@@ -1,4 +1,4 @@
-(defproject org.clojars.curvelogic/capacitor "0.3.3"
+(defproject org.clojars.curvelogic/capacitor "0.3.4-SNAPSHOT"
   :description "A Clojure client for InfluxDB : curvelogic build"
   :url         "https://github.com/curvelogic/capacitor"
   :license {
